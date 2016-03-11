@@ -13,3 +13,4 @@ bitcoind_disablewallet: 0
 bitcoind_sysperms: 0
 bitcoind_blocknotify: null
 bitcoind_datadir: /home/bitcoind/.bitcoin
+bitcoind_debug: False
