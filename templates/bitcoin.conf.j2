@@ -134,3 +134,7 @@ sysperms={{ bitcoind_sysperms }}
 {% if bitcoind_blocknotify %}
 blocknotify={{ bitcoind_blocknotify }}
 {% endif %}
+
+{% if bitcoind_debug is string %}
+debug={{ bitcoind_debug }}
+{% endif %}
