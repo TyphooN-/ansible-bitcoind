@@ -142,3 +142,7 @@ debug={{ bitcoind_debug }}
 {% if bitcoind_rpcworkqueue %}
 rpcworkqueue={{bitcoind_rpcworkqueue}}
 {% endif %}
+
+{% if bitcoind_maxmempool %}
+maxmempool={{ bitcoind_maxmempool }}
+{% endif %}
