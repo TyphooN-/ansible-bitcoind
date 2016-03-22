@@ -138,3 +138,7 @@ blocknotify={{ bitcoind_blocknotify }}
 {% if bitcoind_debug is string %}
 debug={{ bitcoind_debug }}
 {% endif %}
+
+{% if bitcoind_rpcworkqueue %}
+rpcworkqueue={{bitcoind_rpcworkqueue}}
+{% endif %}
